@@ -1,13 +1,9 @@
-import { apiGet } from "../api/apiAllTypes";
+import { apiGet } from "../api/apiAllTypes.js";
 
 export const getPopular = async () => {
   try {
     const res = apiGet("popular");
-    const objetoRes = {
-      Title: res.data.Title,
-      Poster: res.data.Poster,
-    };
-    return objetoRes;
+    return res;
   } catch (err) {
     console.error("Error en fetching:", err);
     throw err;
@@ -17,11 +13,7 @@ export const getPopular = async () => {
 export const getRecientes = async () => {
   try {
     const res = apiGet("recientes");
-    const objetoRes = {
-      Title: res.data.Title,
-      Poster: res.data.Poster,
-    };
-    return objetoRes;
+    return res;
   } catch (err) {
     console.error("Error en fetching:", err);
     throw err;

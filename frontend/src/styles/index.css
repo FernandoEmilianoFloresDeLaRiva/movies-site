@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Bebas Neue;
+  src: url("../fonts/BebasNeue-Regular.ttf");
+}
+
+* {
+  font-family: Bebas Neue;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #100f0f;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e9e3e3;
+  width: 100vw;
+  height: 15vh;
+}
+
+header h1 {
+  color: #db0000;
+  font-size: 4rem;
+}

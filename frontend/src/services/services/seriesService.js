@@ -1,13 +1,9 @@
-import { apiGet, apiGetParticular } from "../api/apiSeries";
+import { apiGet, apiGetParticular } from "../api/apiSeries.js";
 
 export const getSeries = async () => {
   try {
     const res = await apiGet();
-    const objetoRes = {
-      Title: res.data.Title,
-      Poster: res.data.Poster,
-    };
-    return objetoRes;
+    return res;
   } catch (err) {
     console.error("Error en fetching:", err);
     throw err;
