@@ -1,5 +1,6 @@
 [
   {
+    "Tendencia" : true,
     "Title": "Avatar",
     "Year": "2009",
     "Rated": "PG-13",
@@ -29,6 +30,7 @@
     ]
   },
   {
+    "Tendencia" : true,
     "Title": "I Am Legend",
     "Year": "2007",
     "Rated": "PG-13",
@@ -57,6 +59,7 @@
     ]
   },
   {
+    "Tendencia" : true,
     "Title": "300",
     "Year": "2006",
     "Rated": "R",
@@ -84,6 +87,7 @@
     ]
   },
   {
+    "Tendencia" : true,
     "Title": "The Avengers",
     "Year": "2012",
     "Rated": "PG-13",
@@ -113,6 +117,7 @@
     ]
   },
   {
+    "Tendencia" : true,
     "Title": "The Wolf of Wall Street",
     "Year": "2013",
     "Rated": "R",
@@ -142,6 +147,7 @@
     ]
   },
   {
+    "Popular" : true,
     "Title": "Interstellar",
     "Year": "2014",
     "Rated": "PG-13",
@@ -171,8 +177,9 @@
     ]
   },
   {
+    "Popular" : true,
     "Title": "Game of Thrones",
-    "Year": "2011–",
+    "Year": "2011",
     "Rated": "TV-MA",
     "Released": "17 Apr 2011",
     "Runtime": "56 min",
@@ -201,8 +208,9 @@
     ]
   },
   {
+    "Popular" : true,
     "Title": "Vikings",
-    "Year": "2013–",
+    "Year": "2013",
     "Rated": "TV-14",
     "Released": "03 Mar 2013",
     "Runtime": "44 min",
@@ -231,8 +239,9 @@
     ]
   },
   {
+    "Popular" : true,
     "Title": "Gotham",
-    "Year": "2014–",
+    "Year": "2014",
     "Rated": "TV-14",
     "Released": "01 Aug 2014",
     "Runtime": "42 min",
@@ -261,8 +270,9 @@
     ]
   },
   {
+    "Popular" : true,
     "Title": "Power",
-    "Year": "2014–",
+    "Year": "2014",
     "Rated": "TV-MA",
     "Released": "N/A",
     "Runtime": "50 min",
@@ -291,8 +301,9 @@
     ]
   },
   {
+    "Popular" : true,
     "Title": "Narcos",
-    "Year": "2015–",
+    "Year": "2015",
     "Rated": "TV-MA",
     "Released": "28 Aug 2015",
     "Runtime": "49 min",
@@ -321,6 +332,7 @@
     ]
   },
   {
+    
     "Title": "Breaking Bad",
     "Year": "2008–2013",
     "Rated": "TV-14",

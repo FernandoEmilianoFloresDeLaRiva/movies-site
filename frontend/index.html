@@ -10,9 +10,84 @@
   <body>
     <header>
       <h1>Cinemania</h1>
+      <nav>
+        <button href="#">Inicio</button>
+        <button href="#peliculas">Peliculas</button>
+        <button href="#series">Series</button>
+        <button href="#popular">Popular</button>
+        <button href="#recientes">Mas reciente</button>
+      </nav>
     </header>
     <main>
-      
+      <!-- Poster Principal -->
+      <section>
+        <!-- Agregar modal desde el dom, se creara cuando se de click a "reproducir" -->
+        <div>
+          
+        </div>
+        <img
+          src="https://m.media-amazon.com/images/I/71fD+fwEBEL.jpg"
+          alt="poster-gotham"
+        />
+        <div class="contenedor-info">
+          <h2>Gotham (2014)</h2>
+          <p>
+            Before Batman, there was Gotham. A new recruit to the Gotham City
+            Police Department, James Gordon, pairs up with veteran detective
+            Harvey Bullock to solve one of Gotham's most notorious cases: the
+            murder of Thomas and Martha Wayne. During his investigation, Gordon
+            meets Bruce, the Wayne's son, now in the care of his butler Alfred
+            Pennyworth. The encounter with the young Wayne further impels Gordon
+            to catch the mysterious killer. Along the way, Gordon becomes
+            involved with Gotham's mob families and associates, including
+            gangster Fish Mooney. Eventually, Gordon is forced to befriend
+            Wayne, a friendship that will help shape the boy's future to become
+            the Dark Knight.
+          </p>
+        </div>
+        <div class="contenedor-btn">
+          <button>
+            <img src="./src/assets/play.svg" alt="play-icon" />
+            Reproducir
+          </button>
+          <button>
+            <img src="./src/assets/info.svg" alt="play-icon" />
+            Más información
+          </button>
+        </div>
+      </section>
+      <!-- Contenedor Secciones -->
+      <div class="contenedor-secciones">
+        <!-- Primera Seccion -->
+        <section class="contenedor-articles" id="tendencias">
+          <h1 class="titulo-seccion">Tendencias</h1>
+          <!-- <article class="pelicula-art">
+            <figure>
+              <button>
+                <img
+                src="https://m.media-amazon.com/images/I/71fD+fwEBEL.jpg"
+                alt="poster-gotham"
+              />
+              </button>
+              <figcaption>Gotham</figcaption>
+            </figure>
+            <div class="contenido-movie">
+              <p>
+                The story behind Detective James Gordon's rise to prominence in
+                Gotham City in the years before Batman's arrival.
+              </p>
+            </div>
+          </article> -->
+        </section>
+        <!-- Segunda seccion -->
+        <section class="contenedor-articles" id="popular">
+          <h1 class="titulo-seccion">Populares</h1>
+        </section>
+        <!-- Tercera Seccion -->
+        <section class="contenedor-articles" id="clasificacion">
+          <h1 class="titulo-seccion">Top de clasificación</h1>
+        </section>
+      </div>
     </main>
   </body>
 </html>

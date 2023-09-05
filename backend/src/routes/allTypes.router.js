@@ -1,13 +1,19 @@
 import { Router } from "express";
 import {
-  getPopular,
+  getClasificacion,
   getRecientes,
+  getTendencias,
+  getPopular,
 } from "../controllers/allTypes.controller.js";
 
 const allTypeRouter = Router();
 
-allTypeRouter.get("/popular", getPopular);
+allTypeRouter.get("/clasificacion", getClasificacion);
 
 allTypeRouter.get("/recientes", getRecientes);
+
+allTypeRouter.get("/tendencias", getTendencias);
+
+allTypeRouter.get("/popular", getPopular);
 
 export default allTypeRouter;

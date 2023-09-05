@@ -16,14 +16,179 @@ body {
 
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  background-color: #e9e3e3;
+  flex-wrap: wrap;
+  background-color: #100f0f;
+  color: #db0000;
   width: 100vw;
-  height: 15vh;
+  min-height: 15vh;
 }
 
 header h1 {
+  margin-left: 2em;
+  font-size: 3em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2em;
+  list-style: none;
+  margin-right: 3em;
+}
+
+nav button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.3em;
   color: #db0000;
-  font-size: 4rem;
+}
+
+nav button:hover {
+  transition: all ease-out 1s;
+  font-size: 1.5em;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+main section {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+main section img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  object-fit: cover;
+}
+
+.contenedor-info {
+  max-width: 40em;
+  min-height: 20em;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 5em;
+  bottom: 3em;
+  color: #f6efef;
+  word-wrap: break-word;
+}
+
+main section div h2 {
+  font-weight: 200;
+  font-size: 2em;
+}
+
+main section div p {
+  display: contents;
+  letter-spacing: 0.1em;
+  line-height: 0;
+}
+
+.contenedor-btn {
+  width: 30em;
+  height: 2em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  bottom: 3em;
+  left: 8em;
+}
+
+.contenedor-btn button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 8em;
+  border-radius: 0.5em;
+  background-color: #c1a3a341;
+  border-color: #100f0f14;
+  color: #f6efef;
+  letter-spacing: 0.05em;
+}
+
+.contenedor-btn button img {
+  width: 1.5em;
+  margin-right: 0.5em;
+}
+
+.contenedor-secciones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.contenedor-articles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 30em;
+  height: auto;
+}
+
+.pelicula-art {
+  display: flex;
+  width: 100em;
+  height: 15em;
+}
+
+.pelicula-art figure {
+  width: 10em;
+  min-height: 15em;
+}
+
+.pelicula-art figure button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  opacity: 1;
+  width: 12em;
+  height: 16em;
+  object-fit: cover;
+}
+
+.pelicula-art figure button :hover {
+  transition: all ease-out 1s;
+  opacity: 1;
+  box-shadow: 0px 0px 1em #db0000;
+}
+
+.pelicula-art figure figcaption {
+  text-align: center;
+}
+
+.contenido-movie {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12em;
+}
+
+.contenido-movie p {
+  color: #f6efef;
+  text-align: justify;
+  word-wrap: keep-all;
+}
+
+.titulo-seccion{
+  color: #f6efef;
+  text-align: center;
 }
