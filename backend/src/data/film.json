@@ -1,5 +1,6 @@
 [
   {
+    "Trailer" : "https://www.youtube.com/embed/Xg8kYk6uHN0?si=tFUYm29-rDFWg4TI",
     "Tendencia" : true,
     "Title": "Avatar",
     "Year": "2009",
@@ -30,6 +31,7 @@
     ]
   },
   {
+    "Trailer" : "https://www.youtube.com/embed/dtKMEAXyPkg?si=O84b0yjw4-IWBiCo",
     "Tendencia" : true,
     "Title": "I Am Legend",
     "Year": "2007",
@@ -59,6 +61,7 @@
     ]
   },
   {
+    "Trailer": "https://www.youtube.com/embed/UrIbxk7idYA?si=wfpw06mIx8EmpLXl" ,
     "Tendencia" : true,
     "Title": "300",
     "Year": "2006",
@@ -87,6 +90,7 @@
     ]
   },
   {
+    "Trailer" : "https://www.youtube.com/embed/eOrNdBpGMv8?si=4czvAZtnitfshE95" ,
     "Tendencia" : true,
     "Title": "The Avengers",
     "Year": "2012",
@@ -117,6 +121,7 @@
     ]
   },
   {
+    "Trailer" : "https://www.youtube.com/embed/iszwuX1AK6A?si=K6xW-_Op1NUSaWPj" ,
     "Tendencia" : true,
     "Title": "The Wolf of Wall Street",
     "Year": "2013",
@@ -147,6 +152,7 @@
     ]
   },
   {
+    "Trailer" : "https://www.youtube.com/embed/UoSSbmD9vqc?si=IcFiZYK6ywYvDaOQ" ,
     "Popular" : true,
     "Title": "Interstellar",
     "Year": "2014",
@@ -177,6 +183,7 @@
     ]
   },
   {
+    "Trailer" : "https://www.youtube.com/embed/KPLWWIOCOOQ?si=2gjkWeZwTYmpXPqc" ,
     "Popular" : true,
     "Title": "Game of Thrones",
     "Year": "2011",
@@ -208,6 +215,7 @@
     ]
   },
   {
+    "Trailer" : "https://www.youtube.com/embed/9GgxinPwAGc?si=x36LBuuTolfVsSKz",
     "Popular" : true,
     "Title": "Vikings",
     "Year": "2013",
@@ -239,6 +247,7 @@
     ]
   },
   {
+    "Trailer" : "https://www.youtube.com/embed/VwOPA2upeCA?si=nXkq4K8Pup1ErXPW",
     "Popular" : true,
     "Title": "Gotham",
     "Year": "2014",
@@ -270,6 +279,7 @@
     ]
   },
   {
+    "Trailer" : "https://www.youtube.com/embed/0bbwp6feNwM?si=CI0a8Fm-5T_ffuFy" ,
     "Popular" : true,
     "Title": "Power",
     "Year": "2014",
@@ -301,6 +311,7 @@
     ]
   },
   {
+    "Trailer" : "https://www.youtube.com/embed/VNP2znpZvUE?si=_DTPqclZNVR1ICd4" ,
     "Popular" : true,
     "Title": "Narcos",
     "Year": "2015",
@@ -332,7 +343,7 @@
     ]
   },
   {
-    
+    "Trailer" : "https://www.youtube.com/embed/HhesaQXLuRY?si=0-hXzjFfrmEX6A1D" ,
     "Title": "Breaking Bad",
     "Year": "2008–2013",
     "Rated": "TV-14",
@@ -363,6 +374,7 @@
     ]
   },
   {
+    "Trailer" : "https://www.youtube.com/embed/h7gvFravm4A?si=T-_3W6fd1God-oa0" ,
     "ComingSoon": true,
     "Title": "Doctor Strange",
     "Year": "2016",
@@ -391,6 +403,7 @@
     ]
   },
   {
+    "Trailer" : "https://www.youtube.com/embed/frdj1zb9sMY?si=hhvCezsPsENhgSnp",
     "ComingSoon": true,
     "Title": "Rogue One: A Star Wars Story",
     "Year": "2016",
@@ -421,6 +434,7 @@
     ]
   },
   {
+    "Trailer" : "https://www.youtube.com/embed/6zItrFSDVSc?si=kdNYr4BI-ICwgfmI",
     "ComingSoon": true,
     "Title": "Assassin's Creed",
     "Year": "2016",
@@ -450,9 +464,10 @@
     ]
   },
   {
+    "Trailer" : "https://www.youtube.com/embed/WoGxnuCU90c?si=F7jKcHw-sf-qjWWM",
     "ComingSoon": true,
     "Title": "Luke Cage",
-    "Year": "2016–",
+    "Year": "2016",
     "Rated": "TV-MA",
     "Released": "30 Sep 2016",
     "Runtime": "55 min",

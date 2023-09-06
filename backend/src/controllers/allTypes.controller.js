@@ -43,3 +43,15 @@ export const getPopular = (req, res) => {
     )
     .catch((err) => res.status(500).send(err));
 };
+
+export const getParticular = (req, res) => {
+  const { id } = req.params;
+  allTypesServices
+    .getParticular(id)
+    .then((result) =>
+      res.status(200).json({
+        data: result,
+      })
+    )
+    .catch((err) => res.status(500).send(err));
+};

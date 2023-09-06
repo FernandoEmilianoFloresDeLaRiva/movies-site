@@ -1,4 +1,4 @@
-import { apiGet } from "../api/apiAllTypes.js";
+import { apiGet, apiGetParticular } from "../api/apiAllTypes.js";
 
 export const getClasificacion = async () => {
   try {
@@ -36,6 +36,16 @@ export const getPopular = async () => {
     return res;
   } catch (err) {
     console.err("Error en fetching:", err);
+    throw err;
+  }
+};
+
+export const getParticular = async (id) => {
+  try {
+    const res = await apiGetParticular(id);
+    return res;
+  } catch (err) {
+    console.error("Error en fetching:", err);
     throw err;
   }
 };

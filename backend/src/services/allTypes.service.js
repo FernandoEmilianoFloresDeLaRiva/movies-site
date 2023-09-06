@@ -50,3 +50,14 @@ export const getPopular = () => {
     }
   });
 };
+
+export const getParticular = (id) => {
+  return new Promise((resolve, reject) => {
+    try {
+      const filterFilms = films.filter((film) => film.imdbID === id);
+      resolve(filterFilms);
+    } catch (err) {
+      reject(err);
+    }
+  });
+};

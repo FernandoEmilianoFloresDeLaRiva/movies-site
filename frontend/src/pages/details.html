@@ -1,13 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Movies IS | 223251</title>
-</head>
-<body>
+    <link rel="stylesheet" href="../styles/details.css" />
+    <script type="module" src="../js/details.js"></script>
+  </head>
+  <body>
     <header>
-        
+      <h1>Cinemania</h1>
+      <nav>
+        <a href="../../index.html">Inicio</a>
+        <a href="../pages/allFilms.html?asunto=peliculas">Peliculas</a>
+        <a href="../pages/allFilms.html?asunto=series">Series</a>
+        <a href="../pages/allFilms.html?asunto=popular">Popular</a>
+        <a href="../pages/allFilms.html?asunto=recientes">Mas reciente</a>
+      </nav>
     </header>
-</body>
+    <main>
+      <section id="section-particular"></section>
+      <div class="trailer">
+        <iframe
+          id="trailer-video"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <!-- *Seccion de reseñas -->
+      <div class="seccion-resenias">
+        <article class="article-resenia">
+          <figure>
+            <img src="../assets/user.svg" />
+            <figcaption>Fernando Flores</figcaption>
+          </figure>
+          <div class="contenido-resenia">
+            <p>
+              Esta película es un verdadero festín para los sentidos. Desde el
+              primer fotograma hasta el último, te sumerges en un mundo de
+              colores vibrantes, paisajes exuberantes y efectos visuales
+              sorprendentes. Cada escena parece cuidadosamente diseñada para
+              deleitar la vista y la imaginación. La cinematografía es una obra
+              maestra en sí misma, con planos cuidadosamente compuestos y una
+              iluminación que crea atmósferas cautivadoras. Incluso si el
+              argumento no es tu principal preocupación, esta película te dejará
+              asombrado por su belleza visual.
+            </p>
+          </div>
+        </article>
+        <article class="article-resenia">
+          <figure>
+            <img src="../assets/user.svg" />
+            <figcaption>Jane Doe</figcaption>
+          </figure>
+          <div class="contenido-resenia">
+            <p>
+              Esta película es un regalo para los amantes de la música y el
+              sonido. Desde la banda sonora envolvente hasta los efectos de
+              sonido detallados, cada aspecto auditivo está cuidadosamente
+              trabajado para sumergirte en la experiencia. Los diálogos son
+              nítidos y las actuaciones de los actores se complementan
+              perfectamente con la mezcla de sonido. Incluso si la trama no es
+              lo tuyo, la calidad del audio en esta película te llevará a un
+              viaje sonoro inolvidable. Es una delicia para los oídos que vale
+              la pena experimentar.
+            </p>
+          </div>
+        </article>
+      </div>
+    </main>
+  </body>
 </html>

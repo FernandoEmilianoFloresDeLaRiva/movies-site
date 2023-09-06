@@ -12,14 +12,3 @@ export const getAll = () => {
     }
   });
 };
-
-export const getById = (id) => {
-  return new Promise((resolve, reject) => {
-    try {
-      const filteredFilm = films.find((film) => film.imdbID === id);
-      resolve(filteredFilm);
-    } catch (err) {
-      reject(err);
-    }
-  });
-};

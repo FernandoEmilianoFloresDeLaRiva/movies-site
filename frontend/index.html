@@ -8,22 +8,31 @@
     <title>Movies IS | 223251</title>
   </head>
   <body>
-    <header>
+    <header id="inicio">
       <h1>Cinemania</h1>
       <nav>
-        <button href="#">Inicio</button>
-        <button href="#peliculas">Peliculas</button>
-        <button href="#series">Series</button>
-        <button href="#popular">Popular</button>
-        <button href="#recientes">Mas reciente</button>
+        <a href="#inicio">Inicio</a>
+        <a href="./src/pages/allFilms.html?asunto=peliculas">Peliculas</a>
+        <a href="./src/pages/allFilms.html?asunto=series">Series</a>
+        <a href="./src/pages/allFilms.html?asunto=popular">Popular</a>
+        <a href="./src/pages/allFilms.html?asunto=recientes">Mas reciente</a>
       </nav>
     </header>
     <main>
       <!-- Poster Principal -->
       <section>
         <!-- Agregar modal desde el dom, se creara cuando se de click a "reproducir" -->
-        <div>
-          
+        <div id="videoModal" class="modal">
+          <div class="modal-contenido">
+            <span class="cerrar" id="cerrarModalBtn">&times;</span>
+            <iframe
+              src="https://www.youtube.com/embed/VwOPA2upeCA?si=nXkq4K8Pup1ErXPW"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
         <img
           src="https://m.media-amazon.com/images/I/71fD+fwEBEL.jpg"
@@ -46,12 +55,12 @@
           </p>
         </div>
         <div class="contenedor-btn">
-          <button>
+          <button id="abrirModalBtn">
             <img src="./src/assets/play.svg" alt="play-icon" />
             Reproducir
           </button>
-          <button>
-            <img src="./src/assets/info.svg" alt="play-icon" />
+          <button id="btnGotham">
+            <img src="./src/assets/info.svg" alt="info-icon" />
             Más información
           </button>
         </div>
@@ -61,23 +70,6 @@
         <!-- Primera Seccion -->
         <section class="contenedor-articles" id="tendencias">
           <h1 class="titulo-seccion">Tendencias</h1>
-          <!-- <article class="pelicula-art">
-            <figure>
-              <button>
-                <img
-                src="https://m.media-amazon.com/images/I/71fD+fwEBEL.jpg"
-                alt="poster-gotham"
-              />
-              </button>
-              <figcaption>Gotham</figcaption>
-            </figure>
-            <div class="contenido-movie">
-              <p>
-                The story behind Detective James Gordon's rise to prominence in
-                Gotham City in the years before Batman's arrival.
-              </p>
-            </div>
-          </article> -->
         </section>
         <!-- Segunda seccion -->
         <section class="contenedor-articles" id="popular">

@@ -41,14 +41,12 @@ nav {
   margin-right: 3em;
 }
 
-nav button {
-  background-color: transparent;
-  border: none;
+nav a {
   font-size: 1.3em;
   color: #db0000;
 }
 
-nav button:hover {
+nav a:hover {
   transition: all ease-out 1s;
   font-size: 1.5em;
   cursor: pointer;
@@ -172,6 +170,7 @@ main section div p {
 }
 
 .pelicula-art figure figcaption {
+  color: #f6efef;
   text-align: center;
 }
 
@@ -188,7 +187,51 @@ main section div p {
   word-wrap: keep-all;
 }
 
-.titulo-seccion{
+.titulo-seccion {
   color: #f6efef;
   text-align: center;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-contenido {
+  background-color: #cfcaca;
+  display: flex;
+  justify-content: center;
+  margin: 10% auto;
+  padding: 2em;
+  border: 0.1em solid #888;
+  border-radius: 0.5em;
+  width: 30em;
+  max-width: 50em;
+  height: 20em;
+  max-height: 25em;
+  position: relative;
+}
+
+iframe {
+  width: 100%;
+}
+
+.cerrar {
+  position: absolute;
+  right: 0.5em;
+  top: 0.3em;
+  font-size: 1.4em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal-contenido {
+  overflow: hidden;
 }

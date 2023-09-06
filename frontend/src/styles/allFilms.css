@@ -1,0 +1,117 @@
+@font-face {
+  font-family: Bebas Neue;
+  src: url("../fonts/BebasNeue-Regular.ttf");
+}
+
+* {
+  font-family: Bebas Neue;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #100f0f;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #100f0f;
+  color: #db0000;
+  width: 100vw;
+  min-height: 15vh;
+}
+
+header h1 {
+  margin-left: 2em;
+  font-size: 3em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2em;
+  list-style: none;
+  margin-right: 3em;
+}
+
+nav a {
+  font-size: 1.3em;
+  color: #db0000;
+}
+
+nav a:hover {
+  transition: all ease-out 1s;
+  font-size: 1.5em;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+main section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: auto;
+}
+
+main section article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15em;
+  height: 15em;
+  margin-bottom: 2em;
+}
+
+main section article figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 10em;
+  min-height: 15em;
+  background-color: rgba(240, 248, 255, 0.247);
+}
+
+main section article figure button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  opacity: 1;
+  width: 12em;
+  height: 16em;
+  object-fit: cover;
+}
+
+main section article figure img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  object-fit:cover;
+}
+
+main section article figure button img:hover {
+  transition: all ease-out 1s;
+  opacity: 1;
+  box-shadow: 0px 0px 1em #db0000;
+}
+
+main section article figure figcaption {
+  color: #100f0f;
+  text-align: center;
+}
