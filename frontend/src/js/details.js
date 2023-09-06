@@ -27,6 +27,7 @@ getParticular(id).then((res) =>
     div.appendChild(h3);
     div.appendChild(p1);
     div.appendChild(p2);
+    div.className="contenido-detalles";
     sectionParticular.appendChild(article);
     sectionParticular.appendChild(div);
   })
