@@ -8,6 +8,8 @@ import {
 const urlParams = new URLSearchParams(window.location.search);
 const asunto = urlParams.get("asunto");
 const section = document.getElementById("allFilms");
+const tituloAsunto = document.getElementById("asunto");
+tituloAsunto.textContent = asunto;
 
 switch (asunto) {
   case "peliculas":
