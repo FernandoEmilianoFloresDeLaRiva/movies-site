@@ -2,9 +2,11 @@ import express from "express";
 import cors from "cors";
 import indexRouter from "./routes/index.router.js";
 
-const app = express();
+const app = express(); 
 
-app.set("port", 4000 || 5000);
+const port = process.env.PORT || 4000 || 5000;
+
+app.set("port", port);
 
 //middlewares
 app.use(express.json());
