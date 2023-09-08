@@ -238,3 +238,16 @@ iframe {
 .modal-contenido {
   overflow: hidden;
 }
+
+@media (max-width :480px) {
+  header h1{
+    margin-left: 3em;
+  }
+}
+
+@media (max-width :767px) and (min-width :480px) {
+  header{
+    justify-content: center;
+    align-items: center;
+  }
+}
