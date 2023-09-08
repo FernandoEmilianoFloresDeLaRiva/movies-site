@@ -12,6 +12,7 @@ body {
   min-height: 100vh;
   min-width: 100vw;
   background-color: #100f0f;
+  overflow-x: hidden;
 }
 
 header {
@@ -85,6 +86,7 @@ main section img {
   bottom: 3em;
   color: #f6efef;
   word-wrap: break-word;
+  text-align: justify;
 }
 
 main section div h2 {
